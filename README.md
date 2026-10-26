@@ -4,8 +4,6 @@
 
 A dependency-free Node.js command-line application for inspecting and organizing any directory. Scan nested folders, find identical files by content, copy files into useful categories, and preview old files before removing them.
 
-![Scan report](screenshots/01-scan.png)
-
 ## Features
 
 - **A useful inventory:** total size, extension breakdown, modification ages, three largest files and the oldest file.
@@ -102,6 +100,26 @@ These images are **browser-rendered transcripts of real CLI runs**, not native t
 | Category copies | [Organize](screenshots/03-organize.png) | [Text](screenshots/03-organize.txt) |
 | Cleanup preview | [Dry run](screenshots/04-cleanup-preview.png) | [Text](screenshots/04-cleanup-preview.txt) |
 | Confirmed cleanup | [Deletion](screenshots/05-cleanup-confirm.png) | [Text](screenshots/05-cleanup-confirm.txt) |
+
+### Recursive inventory
+
+![Scan report with file types, ages and largest files](screenshots/01-scan.png)
+
+### Duplicate detection
+
+![Duplicate groups with SHA-256 hashes and wasted space](screenshots/02-duplicates.png)
+
+### Category organization
+
+![Organization summary showing copied files in six categories](screenshots/03-organize.png)
+
+### Cleanup preview
+
+![Dry run listing old files without deleting them](screenshots/04-cleanup-preview.png)
+
+### Confirmed cleanup
+
+![Confirmed cleanup showing deleted files and freed space](screenshots/05-cleanup-confirm.png)
 
 ## Architecture
 
