@@ -1,0 +1,16 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "A dependency-free CLI to inspect, deduplicate, organize and clean up any directory.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup",
+    "demo:setup": "node scripts/create-demo.js",
+    "test": "node --test"
+  }
+}

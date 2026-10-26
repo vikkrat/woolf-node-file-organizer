@@ -1,0 +1,14 @@
+$ node file-organizer.js duplicates test-data/input
+
+FILE ORGANIZER / DUPLICATES
+Directory: D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input
+
+Hashing [####################] 12 files
+
+Found 1 duplicate groups (36 B wasted)
+
+Group 1: 2 copies, 36 B each
+SHA-256: f8f6a849f8c76c83c5629d0f65cd441c4341a1cd821ef91b6b227f2cf0ec7362
+  D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input\notes-copy.txt
+  D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input\notes.txt
+Wasted space: 36 B

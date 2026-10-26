@@ -1,0 +1,19 @@
+$ node file-organizer.js organize test-data/input --output test-data/organized
+
+FILE ORGANIZER / ORGANIZE
+Directory: D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input
+
+Output: D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\organized
+Copying [####################] 12 files
+
+ORGANIZATION COMPLETE
+
+  Documents    4 files
+  Images       2 files
+  Archives     1 files
+  Code         2 files
+  Videos       1 files
+  Other        2 files
+
+Total copied: 12 files (12.00 MiB)
+Original files preserved. Name collisions receive numbered suffixes.

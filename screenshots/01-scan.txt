@@ -1,0 +1,35 @@
+$ node file-organizer.js scan test-data/input
+
+FILE ORGANIZER / SCAN
+Directory: D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input
+
+Scanning [####################] 12 files
+
+SCAN RESULTS
+--------------------------------------------------------
+Total files: 12
+Total size: 12.00 MiB
+
+By file type:
+  (no extension)     1 files  26 B
+  .jpg               1 files  23 B
+  .js                1 files  40 B
+  .json              1 files  14 B
+  .mp4               1 files  12.00 MiB
+  .pdf               1 files  25 B
+  .png               1 files  22 B
+  .txt               3 files  117 B
+  .xyz               1 files  22 B
+  .zip               1 files  25 B
+
+File age (cumulative):
+  Last 7 days: 10
+  Last 30 days: 10
+  Older than 90 days: 2
+
+Largest files:
+  1. demo-video.mp4 (12.00 MiB)
+  2. notes.txt (45 B)
+  3. app.js (40 B)
+
+Oldest file: old-report.pdf (120 days ago)

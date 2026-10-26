@@ -1,0 +1,17 @@
+$ node file-organizer.js cleanup test-data/input --older-than 90
+
+FILE ORGANIZER / CLEANUP
+Directory: D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input
+
+Looking for files modified more than 90 days ago.
+
+Found 2 candidates:
+
+  D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input\nested\old-image.png
+    22 B | modified 2026-06-28
+  D:\Projects\fullstack-dev-node.js_2.0\file-organizer\test-data\input\old-report.pdf
+    25 B | modified 2026-06-28
+
+Total: 2 files (47 B)
+
+DRY RUN: No files were deleted. Add --confirm to delete.
